@@ -1,0 +1,10 @@
+certifi==2023.11.17
+charset-normalizer==3.3.2
+idna==3.6
+iree-tools-tflite @ file:///home/euntae/projects/iree-tflite-utils/iree_tools_tflite-20230218.434-py3-none-linux_x86_64.whl#sha256=33d3f50840622cdecb504d025acf290a8df098fbd7efdd71d2619c156c7b65b6
+lit==17.0.6
+numpy==1.26.2
+Pillow==10.1.0
+requests==2.31.0
+urllib3==2.1.0
+wget==3.2

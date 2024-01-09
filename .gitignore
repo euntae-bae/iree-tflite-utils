@@ -1,0 +1,9 @@
+mlir/
+mlir-legacy/
+build/
+.venv
+iree-compiler
+compile-log*
+*.whl
+*.tar.xz
+*.tar.gz
