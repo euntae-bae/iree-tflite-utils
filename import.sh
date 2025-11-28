@@ -1,8 +1,8 @@
 #!/bin/bash
-IREE_LEGACY_MODE=0
+IREE_LEGACY_MODE=1
 
 IMPORT_DIR=tflite
-EXPORT_DIR=mlir
+EXPORT_DIR=mlir_tosa
 SRC_FILE_LIST=$(ls ${IMPORT_DIR}/)
 #echo $SRC_FILE_LIST
 
@@ -13,7 +13,7 @@ if [ $# -gt 0 ]; then
 fi
 
 if [ ${IREE_LEGACY_MODE} -ne 0 ]; then
-	EXPORT_DIR=mlir-legacy
+	EXPORT_DIR=mlir_tosa_legacy
 fi
 
 echo "Legacy mode: ${IREE_LEGACY_MODE}"

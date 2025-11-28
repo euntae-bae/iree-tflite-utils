@@ -1,7 +1,9 @@
-mlir/
+mlir*/
 mlir-legacy/
-build/
-.venv
+mlir-intermediate-legacy
+build*/
+.venv*/
+new.venv/
 iree-compiler
 compile-log*
 *.whl

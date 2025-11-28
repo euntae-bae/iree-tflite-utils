@@ -1,0 +1,6 @@
+PILLOW
+numpy
+lit
+requests
+wget
+

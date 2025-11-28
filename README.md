@@ -34,7 +34,7 @@ release 정보는 다음 [링크](https://pypi.org/project/iree-tools-tflite/)�
 
 
 ## import.sh
-```bash
+```
 Usage: ./import.sh [<legacy_mode>]
 
 legacy_mode: default to 0
@@ -47,7 +47,7 @@ import.sh의 첫 번째 인자로 legacy mode 여부를 지정할 수 있다. 0�
 
 
 ## compile.sh
-```bash
+```
 Usage: ./compile.sh [<target_device> [<legacy_mode>]]
 
 target_device: default to llvm-cpu

@@ -1,0 +1,6 @@
+tensorflow<=2.18.0
+iree-base-compiler<=3.1.0
+iree-base-runtime<=3.1.0
+iree-tools-tflite<=20250107.1133
+kagglehub
+pillow

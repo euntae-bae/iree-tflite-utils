@@ -1,0 +1,7 @@
+PILLOW
+numpy
+lit
+requests
+wget
+# iree-tools-tflite==20231218.742
+
